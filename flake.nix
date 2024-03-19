@@ -15,7 +15,15 @@
     in
     {
       legacyPackages = forAllSystems (system: import ./default.nix {
-        pkgs = import nixpkgs { inherit system; };
+        pkgs = import nixpkgs { 
+          inherit system;
+          config = {
+              permittedInsecurePackages = [
+                "openssl-1.1.1w"
+              ];
+            allowUnfree = true;
+          };
+        };
       });
       packages = forAllSystems (system: nixpkgs.lib.filterAttrs (_: v: nixpkgs.lib.isDerivation v) self.legacyPackages.${system});
     };
