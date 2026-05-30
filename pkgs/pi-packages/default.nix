@@ -58,6 +58,14 @@ let
       homepage = "https://github.com/gotgenes/pi-packages";
     };
 
+    "@gotgenes/pi-permission-system" = mkScopedPackage "@gotgenes" "pi-permission-system" {
+      version = "7.4.0";
+      hash = "sha256-3UrQrIKpOwp7ihBaMEOxqBJQfkaEzjtZ+IDQRBqQ0w4=";
+      npmDepsHash = "sha256-2j2GawLnOXl30aLWTAZxY7r5IqX52q97Px8gh8qXMRw=";
+      description = "Permission system extension for Pi coding agent";
+      homepage = "https://github.com/gotgenes/pi-packages";
+    };
+
     "@junghanacs/pi-shell-acp" = mkScopedPackage "@junghanacs" "pi-shell-acp" {
       version = "0.7.6";
       hash = "sha256-Tuy8DZQFTA7a+wjDZbKFze1ZUFfZOAKiEitdWcVh+kw=";

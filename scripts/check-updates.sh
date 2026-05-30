@@ -167,6 +167,8 @@ if [[ -f "$PIPACKAGES_FILE" ]]; then
     ["pi-web-access"]="nicobailon/pi-web-access"
     ["pi-hermes-memory"]="chandra447/pi-hermes-memory"
     ["@gotgenes/pi-subagents"]="gotgenes/pi-packages"
+    ["@gotgenes/pi-permission-system"]="gotgenes/pi-packages"
+    ["@gotgenes/pi-permission-system"]="gotgenes/pi-packages"
     ["@juicesharp/rpiv-ask-user-question"]="juicesharp/rpiv-mono"
     ["@juicesharp/rpiv-btw"]="juicesharp/rpiv-mono"
     ["@juicesharp/rpiv-todo"]="juicesharp/rpiv-mono"
