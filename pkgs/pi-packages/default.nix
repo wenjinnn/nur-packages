@@ -121,6 +121,16 @@ let
       homepage = "https://github.com/tmustier/pi-usage-extension";
     };
 
+    # ── Permission Extensions ──────────────────────────────────────────────────
+
+    "pi-permission-system" = mkPackage "pi-permission-system" {
+      version = "0.6.0";
+      hash = "sha256-Vci3fxl/9xRzaM6wEKyFg4wmR+PXAzuwE6WYUj4Yfy0=";
+      npmDepsHash = "sha256-cotzXcB8IqMUwZOjVnqmr6sUZj2KCG3njNcRIzUPj/g=";
+      description = "Permission system extension for Pi coding agent";
+      homepage = "https://github.com/MasuRii/pi-permission-system";
+    };
+
     # ── TODO: Add more packages ──────────────────────────────────────────────
     # Use the update script to get hashes:
     #   ./pkgs/pi-packages/scripts/update-pi-package.sh <package-name> [version]

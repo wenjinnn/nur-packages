@@ -173,6 +173,7 @@ if [[ -f "$PIPACKAGES_FILE" ]]; then
     ["@plannotator/pi-extension"]="backnotprop/plannotator"
     ["@llblab/pi-telegram"]="llblab/pi-telegram"
     ["@tmustier/pi-usage-extension"]="tmustier/pi-usage-extension"
+    ["pi-permission-system"]="MasuRii/pi-permission-system"
   )
 
   for package in "${!PACKAGE_SOURCES[@]}"; do
