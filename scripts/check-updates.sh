@@ -178,6 +178,8 @@ if [[ -f "$PIPACKAGES_FILE" ]]; then
     ["@wenjinnn/pi-mimo-voice"]="wenjinnn/pi-mimo-voice"
     ["pi-permission-system"]="MasuRii/pi-permission-system"
     ["pi-subagents"]="nicobailon/pi-subagents"
+    ["pi-interactive-shell"]="nicobailon/pi-interactive-shell"
+    ["pi-intercom"]="nicobailon/pi-intercom"
     ["pi-weixinbot"]="huang-x-h/pi-weixinbot"
   )
 

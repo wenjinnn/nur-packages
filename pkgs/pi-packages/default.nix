@@ -167,6 +167,22 @@ let
       homepage = "https://github.com/nicobailon/pi-subagents";
     };
 
+    "pi-interactive-shell" = mkPackage "pi-interactive-shell" {
+      version = "0.13.0";
+      hash = "sha256-MJWRamvoSy+qYxix/Oq5rHII3j1GbhCyb0u8ufBpgMY=";
+      npmDepsHash = "sha256-2pmQsgdz014tH1AYjAv3Kd5jaDA85wBE7R+9God4LOs=";
+      description = "Run AI coding agents in pi TUI overlays with interactive, hands-free, and dispatch supervision";
+      homepage = "https://github.com/nicobailon/pi-interactive-shell";
+    };
+
+    "pi-intercom" = mkPackage "pi-intercom" {
+      version = "0.6.0";
+      hash = "sha256-dsDVKEZhqsQ3JIu2x6Moef6GMpa9FctTN1GyfK/ESBg=";
+      npmDepsHash = "sha256-sQuiQbFL8FXFxe+hxJEPY9jc87KdpPqBCXd7b3MoLkU=";
+      description = "Inter-session communication extension for pi coding agent";
+      homepage = "https://github.com/nicobailon/pi-intercom";
+    };
+
     # ── TODO: Add more packages ──────────────────────────────────────────────
     # Use the update script to get hashes:
     #   ./pkgs/pi-packages/scripts/update-pi-package.sh <package-name> [version]
