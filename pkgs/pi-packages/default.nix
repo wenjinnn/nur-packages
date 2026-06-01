@@ -159,6 +159,14 @@ let
       homepage = "https://github.com/huang-x-h/pi-weixinbot";
     };
 
+    "pi-subagents" = mkPackage "pi-subagents" {
+      version = "0.27.0";
+      hash = "sha256-c/DaUyyb3GJL5UpMUyFBmhx2bZWthXbF0UvMqm0BR7k=";
+      npmDepsHash = "sha256-1d1/DcbHQr+XgV25i/Ai1k4F+Jc+2UbwCfw+bBQYrds=";
+      description = "Pi extension for delegating tasks to subagents with chains, parallel execution, and TUI clarification";
+      homepage = "https://github.com/nicobailon/pi-subagents";
+    };
+
     # ── TODO: Add more packages ──────────────────────────────────────────────
     # Use the update script to get hashes:
     #   ./pkgs/pi-packages/scripts/update-pi-package.sh <package-name> [version]
