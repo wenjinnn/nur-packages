@@ -183,6 +183,14 @@ let
       homepage = "https://github.com/nicobailon/pi-intercom";
     };
 
+    "pi-caveman" = mkPackage "pi-caveman" {
+      version = "1.0.7";
+      hash = "sha256-uM65rViCdpOxZSVsQ88GADKvPS4zjaxW3vst4iHKuq4=";
+      npmDepsHash = "";  # No dependencies
+      description = "Caveman mode for pi - cuts ~75% output tokens while keeping full technical accuracy";
+      homepage = "https://github.com/jonjonrankin/pi-caveman";
+    };
+
     # ── TODO: Add more packages ──────────────────────────────────────────────
     # Use the update script to get hashes:
     #   ./pkgs/pi-packages/scripts/update-pi-package.sh <package-name> [version]

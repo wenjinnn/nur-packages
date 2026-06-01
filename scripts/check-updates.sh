@@ -180,6 +180,7 @@ if [[ -f "$PIPACKAGES_FILE" ]]; then
     ["pi-subagents"]="nicobailon/pi-subagents"
     ["pi-interactive-shell"]="nicobailon/pi-interactive-shell"
     ["pi-intercom"]="nicobailon/pi-intercom"
+    ["pi-caveman"]="jonjonrankin/pi-caveman"
     ["pi-weixinbot"]="huang-x-h/pi-weixinbot"
   )
 
